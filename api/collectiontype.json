@@ -1,0 +1,18 @@
+[
+    {
+        "collectiontype":"home",
+        "collectionid":1,
+        "lastupdated":10
+    },
+    {
+        "collectiontype":"landing",
+        "collectionid":2,
+        "lastupdated":30
+    },
+    {
+        "collectiontype":"about",
+        "collectionid":3,
+        "lastupdated":40
+    }
+
+]

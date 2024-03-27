@@ -1,0 +1,79 @@
+
+/* Styling for the container */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  overflow: hidden; /* Clearfix for floated elements */
+}
+
+.box1, .box2 {
+  width: 98%; /* Adjust as needed */
+  float: left;
+  margin-right: 2%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+/* Styling for the boxes */
+@media (min-width: 768px) {
+  .box1 {
+    width: 48%; /* Adjust as needed */
+    float: left;
+    margin-right: 2%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .box2 {
+    width: 48%; /* Adjust as needed */
+    float: left;
+    margin-right: 2%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}
+
+/* Clearfix to contain floated elements */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#newsGrid h4 {
+    
+    color: gray !important;
+}
+
+.border-bottom {
+  border-bottom: #c5b69f 1px solid !important;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+.float-end {
+  float: right !important;
+}
+
+.col-md-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
